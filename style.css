@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(251, 251, 253, .8);
+  background-color: rgba(255, 255, 255, 0.8);
   margin: 0;
 }
 
@@ -30,8 +30,23 @@ li {
 
 .chevron-icon{
   width: 15px;
+  color: blue;
 }
 
 .savings-img img {
   width: 200px;
+}
+
+.donation {
+  background-color: white;
+  padding: 15px;
+}
+
+.donation p{
+  width: 470px;
+  margin: 0 auto;
+}
+
+.donation span a {
+  text-decoration: none;
 }

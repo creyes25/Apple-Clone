@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(244, 244, 244, 0.8);
+  /* background-color: rgba(244, 244, 244, 0.8); */
   margin: 0;
 }
 
@@ -28,6 +28,12 @@ li {
   font-size: 14px;
 }
 
+a:visited, a {
+  color: rgb(75, 107, 223);
+  text-decoration: none;
+  letter-spacing: .5px;
+}
+
 .chevron-icon{
   width: 15px;
   color: blue;
@@ -43,25 +49,28 @@ li {
 .donation p{
   max-width: 470px;
   margin: 0 auto;
+  font-size: 16px;
+  text-align: center;
 }
 
-.donation span a {
-  text-decoration: none;
+.donation a {
+  font-size: 16px;
 }
 
-.savings-college {
+
+.savings-college, .macbook-air-15, .iPhone-14  {
   height: 500px;
   background-color: rgb(243, 243, 243);
 }
 
-.savings {
+.savings, .macbook-info, .iPhone-14-info  {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 0px;
 }
 
-.savings h2 {
+.savings h2, .macbook-info h2, .iPhone-14-info h2 {
   margin: 0 auto;
   font-size: 48px;
   max-width: 490px;
@@ -70,30 +79,42 @@ li {
   margin-top: 40px;
 }
 
-.savings h3 {
+.savings h3, .macbook-info h3, .iPhone-14-info h3 {
   font-size: 24px;
   font-weight: 400;
   margin: 10px;
   z-index: 1;
 }
 
-.savings a {
-  text-decoration: none;
+.savings a{
   font-size: 18px;
   z-index: 1;
 }
-.savings-img {
+
+
+.savings-img, .macbook-img-container, .iphone14-img {
   display: inline-block;
   height: 100%;
   width: 100%;
 }
 
-.savings-img img {
+.savings-img img, .macbook-img-container img, .iphone14-img img {
   width: 100%;
   height: 100%;
   object-fit: scale-down;
 
 }
 
+.macbook-air-15, .iPhone-14 {
+  margin-top: 15px;
+  background-color: rgb(249, 249, 249);
+}
 
+.two-links{
+  z-index: 1;
+  font-size: 18px;
+}
 
+.two-links a {
+  margin-left: 20px;
+}

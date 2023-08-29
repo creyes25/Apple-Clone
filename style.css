@@ -120,7 +120,7 @@ a:visited, a {
 
 .iphone14-pro, .ipad-pro {
   height: 500px;
-  width: 50%;
+  width: 48.5%;
 }
 
 .iphone14-pro-info, .ipad-pro-info{
@@ -175,4 +175,10 @@ a:visited, a {
   height: 100%;
   width: 100%;
   object-fit: contain;
+}
+
+.collection-section {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
 }

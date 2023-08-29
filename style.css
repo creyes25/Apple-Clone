@@ -93,7 +93,6 @@ a:visited, a {
 
 
 .savings-img, .macbook-img-container, .iphone14-img {
-  display: inline-block;
   height: 100%;
   width: 100%;
 }
@@ -115,6 +114,59 @@ a:visited, a {
   font-size: 18px;
 }
 
-.two-links a {
+.two-links a, .two-links-collection a {
   margin-left: 20px;
+}
+
+.iphone14-pro {
+  height: 500px;
+  width: 50%;
+}
+
+.iphone14-pro-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 0;
+}
+
+.iphone14-pro-info h2 {
+  color: white;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: .002em;
+  line-height: 1.25;
+  z-index: 1;
+  font-weight: 600;
+}
+
+.iphone14-pro-info h3 {
+  color: white;
+  font-size: 19px;
+  font-weight: 400;
+  letter-spacing: .012em;
+  line-height: 1.22;
+  z-index: 1;
+}
+
+.two-links-collection{
+  z-index: 1;
+  font-size: 19px;
+}
+
+.two-links-collection a, .two-links-collection svg {
+  color:#2997FF;
+}
+
+.collections-img-container {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+.collections-img-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }

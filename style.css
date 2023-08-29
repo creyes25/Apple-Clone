@@ -118,19 +118,19 @@ a:visited, a {
   margin-left: 20px;
 }
 
-.iphone14-pro {
+.iphone14-pro, .ipad-pro {
   height: 500px;
   width: 50%;
 }
 
-.iphone14-pro-info{
+.iphone14-pro-info, .ipad-pro-info{
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 0;
 }
 
-.iphone14-pro-info h2 {
+.iphone14-pro-info h2, .ipad-pro-info h2 {
   color: white;
   font-size: 32px;
   font-weight: 400;
@@ -140,6 +140,8 @@ a:visited, a {
   font-weight: 600;
 }
 
+
+
 .iphone14-pro-info h3 {
   color: white;
   font-size: 19px;
@@ -147,6 +149,12 @@ a:visited, a {
   letter-spacing: .012em;
   line-height: 1.22;
   z-index: 1;
+}
+
+.m2-chip {
+  z-index: 1;
+  color: white;
+  display: flex;
 }
 
 .two-links-collection{
@@ -160,8 +168,6 @@ a:visited, a {
 
 .collections-img-container {
   height: 100%;
-  padding: 0;
-  margin: 0;
   background-color: black;
 }
 

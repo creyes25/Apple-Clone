@@ -1,5 +1,4 @@
 body {
-  /* background-color: rgba(244, 244, 244, 0.8); */
   margin: 0;
 }
 
@@ -28,25 +27,24 @@ li {
   font-size: 14px;
 }
 
-a:visited, a {
+a:visited,
+a {
   color: rgb(75, 107, 223);
   text-decoration: none;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
 }
 
-.chevron-icon{
+.chevron-icon {
   width: 15px;
   color: blue;
 }
-
-
 
 .donation {
   background-color: white;
   padding: 15px;
 }
 
-.donation p{
+.donation p {
   max-width: 470px;
   margin: 0 auto;
   font-size: 16px;
@@ -57,20 +55,25 @@ a:visited, a {
   font-size: 16px;
 }
 
-
-.savings-college, .macbook-air-15, .iPhone-14  {
+.savings-college,
+.macbook-air-15,
+.iPhone-14 {
   height: 500px;
   background-color: rgb(243, 243, 243);
 }
 
-.savings, .macbook-info, .iPhone-14-info  {
+.savings,
+.macbook-info,
+.iPhone-14-info {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 0px;
 }
 
-.savings h2, .macbook-info h2, .iPhone-14-info h2 {
+.savings h2,
+.macbook-info h2,
+.iPhone-14-info h2 {
   margin: 0 auto;
   font-size: 48px;
   max-width: 490px;
@@ -79,106 +82,196 @@ a:visited, a {
   margin-top: 40px;
 }
 
-.savings h3, .macbook-info h3, .iPhone-14-info h3 {
+.savings h3,
+.macbook-info h3,
+.iPhone-14-info h3 {
   font-size: 24px;
   font-weight: 400;
   margin: 10px;
   z-index: 1;
 }
 
-.savings a{
+.savings a {
   font-size: 18px;
   z-index: 1;
 }
 
-
-.savings-img, .macbook-img-container, .iphone14-img {
+.savings-img,
+.macbook-img-container,
+.iphone14-img {
   height: 100%;
   width: 100%;
 }
 
-.savings-img img, .macbook-img-container img, .iphone14-img img {
+.savings-img img,
+.macbook-img-container img,
+.iphone14-img img {
   width: 100%;
   height: 100%;
   object-fit: scale-down;
-
 }
 
-.macbook-air-15, .iPhone-14 {
+.macbook-air-15,
+.iPhone-14 {
   margin-top: 15px;
   background-color: rgb(249, 249, 249);
 }
 
-.two-links{
+.two-links {
   z-index: 1;
   font-size: 18px;
 }
 
-.two-links a, .two-links-collection a {
+.two-links a,
+.two-links-collection a {
   margin-left: 20px;
 }
 
-.iphone14-pro, .ipad-pro {
-  height: 500px;
+.apple-event,
+.iphone14-pro,
+.ipad-pro,
+.apple-watch-series-8,
+.iphone-tradein,
+.apple-card {
+  height: 740px;
   width: 48.5%;
 }
 
-.iphone14-pro-info, .ipad-pro-info{
+.apple-event-info,
+.iphone14-pro-info,
+.ipad-pro-info,
+.apple-watch-info,
+.trade-in-info,
+.apple-card-info {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 0;
 }
 
-.iphone14-pro-info h2, .ipad-pro-info h2 {
+.apple-event-info {
+  position: relative;
+  top: -35%;
+}
+
+.iphone14-pro-info h2,
+.ipad-pro-info h2,
+.apple-watch-info h2,
+.apple-watch-info h4,
+.trade-in-info h2,
+.apple-card-info h2,
+.apple-event-info h2 {
   color: white;
-  font-size: 32px;
-  font-weight: 400;
-  letter-spacing: .002em;
+  font-size: 35px;
+  letter-spacing: 0.002em;
   line-height: 1.25;
   z-index: 1;
   font-weight: 600;
+  margin-bottom: 2px;
+  margin-top: 60px;
 }
 
+.apple-watch-info h4 {
+  color: red;
+  font-size: 14px;
+  margin: 0;
+  font-weight: 300;
+  letter-spacing: 0.12em;
+  line-height: 1;
+}
 
-
-.iphone14-pro-info h3 {
+.iphone14-pro-info h3,
+.apple-watch-info h3,
+.trade-in-info h3,
+.apple-card-info h3,
+.apple-event-info h3 {
   color: white;
-  font-size: 19px;
-  font-weight: 400;
-  letter-spacing: .012em;
+  font-size: 20px;
+  font-weight: 548;
+  letter-spacing: 0.012em;
   line-height: 1.22;
   z-index: 1;
+  margin: 5px 0;
+}
+
+.trade-in-info h2,
+.trade-in-info h3,
+.apple-card-info h2,
+.apple-card-info h3 {
+  color: black;
+}
+
+.apple-card-info h3 {
+  width: 60%;
+  text-align: center;
 }
 
 .m2-chip {
   z-index: 1;
   color: white;
   display: flex;
+  align-items: center;
 }
 
-.two-links-collection{
+.m2-chip img {
+  height: 40px;
+  margin-left: 5px;
+}
+
+.two-links-collection {
   z-index: 1;
   font-size: 19px;
+  margin: 10px 0 5px;
 }
 
-.two-links-collection a, .two-links-collection svg {
-  color:#2997FF;
+.two-links-collection a,
+.two-links-collection svg {
+  color: #2997ff;
+}
+
+.trade-in-info a,
+.trade-in-info svg,
+.apple-event-info a,
+.apple-event-info svg {
+  color: #2997ff;
+  z-index: 1;
+  font-size: 19px;
+  margin-top: 5px;
 }
 
 .collections-img-container {
   height: 100%;
-  background-color: black;
 }
 
 .collections-img-container img {
   height: 100%;
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .collection-section {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 10px;
+  margin-top: 12px;
+}
+
+.title-logo {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 1068px) {
+  .iphone14-pro,
+  .ipad-pro,
+  .apple-watch-series-8,
+  .iphone-tradein,
+  .apple-card,
+  .apple-event {
+    height: 500px;
+  }
+
+  .apple-event-info {
+    position: relative;
+    top: -42%;
+  }
 }

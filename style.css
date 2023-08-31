@@ -260,6 +260,35 @@ a {
   align-items: center;
 }
 
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 13px;
+    color: gray;
+    border-top: .5px solid rgba(180, 180, 180, 0.336);
+    background-color: rgb(249, 249, 249);
+    margin-top: 5px;
+}
+
+.legal-info ul {
+    display: flex;
+    padding: 0;
+    
+}
+
+.legal-info li {
+    border-right: 1px solid rgba(128, 128, 128, 0.486);
+    padding-right: 8px;
+    margin-right: 2px;
+    font-size: 13px;
+}
+
+.legal-info a {
+    color: gray;
+}
+
+
 @media screen and (max-width: 1068px) {
   .iphone14-pro,
   .ipad-pro,
@@ -273,5 +302,9 @@ a {
   .apple-event-info {
     position: relative;
     top: -42%;
+  }
+
+  footer {
+    flex-wrap: wrap;
   }
 }

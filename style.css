@@ -284,9 +284,15 @@ footer {
     font-size: 13px;
 }
 
+.legal-info li:last-child {
+  border: 0;
+}
+
 .legal-info a {
     color: gray;
 }
+
+
 
 
 @media screen and (max-width: 1068px) {

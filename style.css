@@ -1,9 +1,10 @@
 body {
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 nav {
-  background-color: rgba(255, 255, 255, 0.979);
+  background-color: rgba(255, 255, 255, 0.978);
   width: 100%;
   height: 60px;
   position: sticky;
@@ -28,7 +29,7 @@ li {
   list-style: none;
   text-decoration: none;
   margin: 0 10px;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 a:visited,
@@ -51,12 +52,12 @@ a {
 .donation p {
   max-width: 470px;
   margin: 0 auto;
-  font-size: 16px;
+  font-size: 15px;
   text-align: center;
 }
 
 .donation a {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .savings-college,
@@ -79,24 +80,26 @@ a {
 .macbook-info h2,
 .iPhone-14-info h2 {
   margin: 0 auto;
-  font-size: 48px;
+  font-size: 46px;
   max-width: 490px;
   text-align: center;
   z-index: 1;
   margin-top: 40px;
+  font-weight: 600;
+  letter-spacing: .002em;
 }
 
 .savings h3,
 .macbook-info h3,
 .iPhone-14-info h3 {
-  font-size: 24px;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 340;
   margin: 10px;
   z-index: 1;
 }
 
 .savings a {
-  font-size: 18px;
+  font-size: 16px;
   z-index: 1;
 }
 
@@ -117,13 +120,13 @@ a {
 
 .macbook-air-15,
 .iPhone-14 {
-  margin-top: 15px;
+  margin-top: 14px;
   background-color: rgb(249, 249, 249);
 }
 
 .two-links {
   z-index: 1;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .two-links a,
@@ -166,32 +169,33 @@ a {
 .apple-card-info h2,
 .apple-event-info h2 {
   color: white;
-  font-size: 35px;
+  font-size: 32px;
   letter-spacing: 0.002em;
   line-height: 1.25;
   z-index: 1;
-  font-weight: 600;
+  /* font-weight: 600; */
   margin-bottom: 2px;
   margin-top: 60px;
 }
 
 .apple-watch-info h4 {
-  color: red;
-  font-size: 14px;
-  margin: 0;
-  font-weight: 300;
-  letter-spacing: 0.12em;
-  line-height: 1;
+  color: rgb(211, 0, 0);
+  font-size: 12px;
+  margin: 0 0 14px;
+  /* font-weight: 300; */
+  letter-spacing: 0.15em;
+  line-height: .2em;
 }
 
 .iphone14-pro-info h3,
 .apple-watch-info h3,
+.ipad-pro-info h3
 .trade-in-info h3,
 .apple-card-info h3,
 .apple-event-info h3 {
   color: white;
   font-size: 20px;
-  font-weight: 548;
+  font-weight: 500;
   letter-spacing: 0.012em;
   line-height: 1.22;
   z-index: 1;
@@ -217,6 +221,8 @@ a {
   align-items: center;
 }
 
+
+
 .m2-chip img {
   height: 40px;
   margin-left: 5px;
@@ -224,7 +230,7 @@ a {
 
 .two-links-collection {
   z-index: 1;
-  font-size: 19px;
+  font-size: 16px;
   margin: 10px 0 5px;
 }
 
@@ -239,7 +245,7 @@ a {
 .apple-event-info svg {
   color: #2997ff;
   z-index: 1;
-  font-size: 19px;
+  font-size: 16px;
   margin-top: 5px;
 }
 
@@ -268,13 +274,14 @@ footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    font-size: 13px;
-    color: #6e6e73;
+    font-size: 8px;
+    color: #949496;
     background-color: rgb(249, 249, 249);
 }
 
 .footer-content {
   padding: 0 22px;
+  color: #6e6573;
 }
 
 .top {
@@ -288,7 +295,7 @@ footer {
 
 .top li {
   padding-bottom: 0.8em;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.4;
 }
 
@@ -301,9 +308,9 @@ footer {
   display: flex;
   justify-content: space-evenly;
   padding-top: 20px;
-  font-size: 12px;
+  font-size: 10px;
   line-height: 1.4;
-  font-weight: 400;
+  font-weight: 200;
 }
 
 .middle-content {
@@ -319,9 +326,10 @@ footer {
 }
 
 .column-section h3 {
-  color: rgb(86, 86, 86);
+  /* color: rgb(86, 86, 86); */
   margin: 0 20px 0.45em 0;
-  font-size: 1.19em;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .column-section ul {
@@ -334,7 +342,7 @@ footer {
 }
 
 .column-section a {
-  color: #424245;
+  color: #6e6573;
 }
 
 .bottom {
@@ -342,8 +350,8 @@ footer {
   flex-direction: column;
   padding-top: 38px;
   padding-bottom: 18px;
-  font-size: 1em;
-  
+  font-size: 12px;
+  color: #6e6573;
 }
 
 .shop {
@@ -354,10 +362,15 @@ footer {
 
 .legal {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   align-content: center;
   margin: 0 10px 8px;
+
+}
+
+.copy-right {
+  font-size: 12px;
 }
 
 .legal-info ul {
@@ -369,7 +382,7 @@ footer {
     border-right: 1px solid rgba(128, 128, 128, 0.486);
     padding-right: 8px;
     margin-right: 2px;
-    font-size: 13px;
+    font-size: 11px;
 }
 
 .legal-info li:last-child {
@@ -377,7 +390,7 @@ footer {
 }
 
 .legal-info a {
-    color: gray;
+    color: #57575a;
 }
 
 

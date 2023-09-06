@@ -120,7 +120,7 @@ a {
 
 .macbook-air-15,
 .iPhone-14 {
-  margin-top: 12px;
+  margin-top: 10px;
   background-color: rgb(249, 249, 249);
 }
 
@@ -134,6 +134,10 @@ a {
   margin-left: 20px;
 }
 
+.collections {
+  /* margin-top: 10px; */
+}
+
 .apple-event,
 .iphone14-pro,
 .ipad-pro,
@@ -142,6 +146,8 @@ a {
 .apple-card {
   height: 700px;
   width: 49%;
+  /* padding: 0px 8px; */
+  /* margin: 10px; */
 }
 
 .apple-event-info,
@@ -173,7 +179,6 @@ a {
   letter-spacing: 0.002em;
   line-height: 1.25;
   z-index: 1;
-  /* font-weight: 600; */
   margin-bottom: 2px;
   margin-top: 60px;
 }
@@ -261,7 +266,7 @@ a {
 .collection-section {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 8px;
+  margin-top: 10px;
 }
 
 .title-logo {
@@ -281,6 +286,7 @@ footer {
 .footer-content {
   padding: 0 22px;
   color: #6e6573;
+  max-width: 800px;
 }
 
 .top {
@@ -296,6 +302,7 @@ footer {
   padding-bottom: 0.8em;
   font-size: 12px;
   line-height: 1.4;
+  margin: 0;
 }
 
 .top a {
@@ -305,7 +312,7 @@ footer {
 
 .middle {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding-top: 20px;
   font-size: 10px;
   line-height: 1.4;
@@ -353,7 +360,6 @@ footer {
 }
 
 .shop {
-  margin: 0 10px 8px;
   padding-bottom: 10px;
   border-bottom: 1px solid #d2d2d7;
 }
@@ -363,31 +369,38 @@ footer {
   justify-content: space-between;
   align-items: center;
   align-content: center;
-  margin: 0 10px 8px;
 
+}
+
+.legal-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .copy-right {
   font-size: 12px;
+  margin-right: 8px;
 }
 
-.legal-info ul {
+.legal-links ul {
   display: flex;
   padding: 0;
 }
 
-.legal-info li {
+.legal-links li {
   border-right: 1px solid rgba(128, 128, 128, 0.486);
   padding-right: 8px;
   margin-right: 2px;
   font-size: 11px;
 }
 
-.legal-info li:last-child {
+.legal-links li:last-child {
   border: 0;
 }
 
-.legal-info a {
+.legal-links a {
   color: #57575a;
 }
 

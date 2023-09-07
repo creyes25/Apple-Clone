@@ -10,7 +10,6 @@ nav {
   position: sticky;
   top: 0;
   z-index: 100;
-
 }
 
 nav ul {
@@ -134,9 +133,6 @@ a {
   margin-left: 20px;
 }
 
-.collections {
-  /* margin-top: 10px; */
-}
 
 .apple-event,
 .iphone14-pro,
@@ -145,9 +141,7 @@ a {
 .iphone-tradein,
 .apple-card {
   height: 700px;
-  width: 49%;
-  /* padding: 0px 8px; */
-  /* margin: 10px; */
+  width: 49.5%;
 }
 
 .apple-event-info,
@@ -226,7 +220,6 @@ a {
 }
 
 
-
 .m2-chip img {
   height: 40px;
   margin-left: 5px;
@@ -265,7 +258,7 @@ a {
 
 .collection-section {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   margin-top: 10px;
 }
 
@@ -403,8 +396,6 @@ footer {
 .legal-links a {
   color: #57575a;
 }
-
-
 
 
 @media screen and (max-width: 1068px) {

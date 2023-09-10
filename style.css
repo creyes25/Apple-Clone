@@ -141,7 +141,7 @@ a {
 .iphone-tradein,
 .apple-card {
   height: 700px;
-  width: 49.5%;
+  width: calc(50% - 10px)
 }
 
 .apple-event-info,
@@ -228,7 +228,7 @@ a {
 .two-links-collection {
   z-index: 1;
   font-size: 16px;
-  margin: 10px 0 5px;
+  margin: 10px 0 10px;
 }
 
 .two-links-collection a,
@@ -259,7 +259,7 @@ a {
 .collection-section {
   display: flex;
   justify-content: space-around;
-  margin-top: 10px;
+  margin: 10px 10px 0;
 }
 
 .title-logo {

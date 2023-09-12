@@ -262,6 +262,10 @@ a {
   margin: 10px 10px 0;
 }
 
+.collection-section:last-child {
+  margin-bottom: 10px;
+}
+
 .title-logo {
   display: flex;
   align-items: center;
